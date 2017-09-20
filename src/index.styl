@@ -1,0 +1,45 @@
+// Colors
+
+$PrimaryColor = #2E5EAA // Azul
+$SecondColor = #197BD2 // Azul -1
+$BgColor = #ECEFF1 // gris -4
+
+$GridPaddin = 0.7em
+body
+	background-color $BgColor
+.container-grid
+	min-height 100vh
+	display flex
+	flex-flow column
+.navbartop
+	background-color $PrimaryColor
+	height 5em
+.layout
+	display flex
+	flex-grow 2
+	// background-color lime
+	.navbar
+		flex-basis 20em
+		padding $GridPaddin * 2
+		padding-right 0.5em
+		>div
+			height 100%
+		.card
+			margin 0
+	main
+		// background-color red
+		flex-grow 2
+		padding $GridPaddin
+	.grid
+		display flex
+		flex-flow column
+		// background-color purple
+		>div
+			// background-color orange
+			flex-grow 2
+			display flex
+			padding $GridPaddin
+.card-layout
+	// background-color orane
+	width 100%
+	margin 0

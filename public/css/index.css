@@ -1,0 +1,44 @@
+body {
+  background-color: #eceff1;
+}
+.container-grid {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+.navbartop {
+  background-color: #2e5eaa;
+  height: 5em;
+}
+.layout {
+  display: flex;
+  flex-grow: 2;
+}
+.layout .navbar {
+  flex-basis: 20em;
+  padding: 1.4em;
+  padding-right: 0.5em;
+}
+.layout .navbar >div {
+  height: 100%;
+}
+.layout .navbar .card {
+  margin: 0;
+}
+.layout main {
+  flex-grow: 2;
+  padding: 0.7em;
+}
+.layout .grid {
+  display: flex;
+  flex-flow: column;
+}
+.layout .grid >div {
+  flex-grow: 2;
+  display: flex;
+  padding: 0.7em;
+}
+.card-layout {
+  width: 100%;
+  margin: 0;
+}
